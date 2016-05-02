@@ -20,4 +20,6 @@ Some interesting iOS prototypes and template code that I tinkered with in the pa
 ## Data Structures / Algorithms
 - **A Struct Template**: A playground that shows off a simple implementation of a struct and how one can serialize and de-serialize elements.
 
-- **Core Data Study**: A repository of template code and examples showing off Core Data.
+# License
+
+All sample and template source in this repository is released under the MIT license. See LICENSE for details.
