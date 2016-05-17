@@ -25,7 +25,7 @@ Some interesting iOS prototypes and template code that I tinkered with in the pa
 
 
 ## Swift Source
-- ** Core Data **: A folder of swift source files that communicates with the Core Data stack.
+- **Core Data**: A folder of swift source files that communicates with the Core Data stack.
 
 ##### Some notes about Core Data
 1. Make sure to include the Core Data helper class from the code section of this repository
