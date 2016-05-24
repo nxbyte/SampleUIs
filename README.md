@@ -3,7 +3,7 @@
 Some interesting iOS prototypes and template code that I tinkered with in the past
 
 ![platforms](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg)]()
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/iOS-OSX-Prototypes/master/LICENSE)
 
 # Requirements
 
@@ -34,8 +34,6 @@ Some interesting iOS prototypes and template code that I tinkered with in the pa
 4. Make sure to save!
 5. (One-Many relationships) If you want to associate a parent for a child object then set the child's parent to the parent object.
 
-
-
 # License
 
-All sample and template source in this repository is released under the MIT license. See LICENSE for details.
+All **templates** and **sample source code** in this repository are released under the MIT license. See LICENSE for details.
