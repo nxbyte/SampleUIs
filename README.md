@@ -1,39 +1,34 @@
-# iOS-Template-Code
-
-Some interesting iOS prototypes and template code that I tinkered with in the past
+# Apple-Prototypes
 
 ![platforms](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/iOS-OSX-Prototypes/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/iOS-macOS-Prototypes/master/LICENSE)
 
-# Requirements
+Some interesting prototypes and snippets of code that I tinkered with for Apple's platforms
 
-- OS X 10.11+ (El Capitan or newer)
+## Requirements
+
+- macOS Sierra or newer (10.12+)
 - iOS 8+
-- Xcode 7.3+ (with Swift 2.3 support)
+- Xcode 8.2 (Swift 3)
 
-## User Interface Prototypes
+## Prototypes
 
-- **UITableView Template**: An iOS project with a simple implementation of UITableView
+- [UITableView Template](/Prototypes/UITableView Template): An iOS project with a simple implementation of UITableView
 
-- **Parallax UITableView Example**: An iOS project with moving UIImages while scrolling the UITableView
+- [UITableView Parallax](/Prototypes/UITableView Parallax): An iOS project that moves each image inside each cell while scrolling the UITableView
 
-- **UICollectionView Template**: An iOS project with a simple implementation of UICollectionView
+- [UICollectionView Template](/Prototypes/UICollectionView Template): An iOS project with a simple implementation of UICollectionView
 
+## Snippets
 
-## Data Structures / Algorithms
-- **A Struct Template**: A playground that shows off a simple implementation of a struct and how one can serialize and de-serialize elements.
+- [Struct.playground](/Snippets): A playground that shows a simple implementation of a swift struct and how one can serialize and de-serialize elements
 
+- [CoreData.swift](/Snippets/CoreData): A swift source files that encapsulates the important components of the Core Data Stack. (Note: For use in projects iOS 9 and below)
 
-## Swift Source
-- **Core Data**: A folder of swift source files that communicates with the Core Data stack.
+- [letMutability.swift](/Snippets): A playground that shows two implementations of the same functional code. One uses let-mutability while the other uses regular sequential assignments
 
-##### Some notes about Core Data
-1. Make sure to include the Core Data helper class from the code section of this repository
-2. Use scalar properties whenever possible
-3. After creating the object graph and exporting the subclass, refactor and extend the helper class, in another file, with code related to the object graph
-4. Make sure to save!
-5. (One-Many relationships) If you want to associate a parent for a child object then set the child's parent to the parent object.
+- [updateFile.swift](/Snippets): A playground that shows one way to update a file on a device from a server based on the 'Last-Modified' part of a HTTP response
 
-# License
+## License
 
-All **templates** and **sample source code** in this repository are released under the MIT license. See LICENSE for details.
+All **snippets** and **prototypes** in this repository are released under the MIT license. See LICENSE for details.
