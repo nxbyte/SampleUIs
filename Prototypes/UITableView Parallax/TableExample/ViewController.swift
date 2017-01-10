@@ -13,24 +13,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
     }
     
-    override func viewDidAppear(animated: Bool)
+    override func viewDidAppear(_ animated: Bool)
     {
         super.viewDidAppear(animated)
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int
+    func numberOfSections(in tableView: UITableView) -> Int
     {
         return 1
     }
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return 10
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableview.dequeueReusableCellWithIdentifier("UITableCell") as! UITableCell
+        let cell = tableview.dequeueReusableCell(withIdentifier: "UITableCell") as! UITableCell
         
         cell.title.text = "Cell \(indexPath.row)"
         cell.subtitle.text = "This is a parallex cell \(indexPath.row)"
@@ -41,20 +41,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     var last = CGFloat(0.0);
     
-    func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool)
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool)
     {
         if (scrollView.contentOffset.x < 0)
         {
-            tableview.reloadSections(NSIndexSet(index: 0), withRowAnimation: UITableViewRowAnimation.Right)
+            tableview.reloadSections(IndexSet(integer: 0), with: UITableViewRowAnimation.right)
         }
             
         else if (scrollView.contentOffset.x > 0)
         {
-            tableview.reloadSections(NSIndexSet(index: 0), withRowAnimation: UITableViewRowAnimation.Left)
+            tableview.reloadSections(IndexSet(integer: 0), with: UITableViewRowAnimation.left)
         }
     }
     
-    func scrollViewDidScroll(scrollView: UIScrollView)
+    func scrollViewDidScroll(_ scrollView: UIScrollView)
     {
         for element in self.tableview.visibleCells as! [UITableCell]
         {
@@ -62,7 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
 
-    override func preferredStatusBarStyle() -> UIStatusBarStyle { return UIStatusBarStyle.LightContent }
+    override var preferredStatusBarStyle : UIStatusBarStyle { return UIStatusBarStyle.lightContent }
     
     override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() }
 }
@@ -75,13 +75,13 @@ class UITableCell : UITableViewCell
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var subtitle: UILabel!
     
-    func parallax (tableview:UITableView, view:UIView)
+    func parallax (_ tableview:UITableView, view:UIView)
     {
-        let rectInSuperview = tableview.convertRect(self.frame, toView: view)
+        let rectInSuperview = tableview.convert(self.frame, to: view)
         
-        let distanceFromCenter = CGRectGetHeight(view.frame)/2 - CGRectGetMinY(rectInSuperview);
-        let difference = CGRectGetHeight(IMAGE.frame) - CGRectGetHeight(self.frame);
-        let move = (distanceFromCenter / CGRectGetHeight(view.frame)) * difference;
+        let distanceFromCenter = view.frame.height/2 - rectInSuperview.minY;
+        let difference = IMAGE.frame.height - self.frame.height;
+        let move = (distanceFromCenter / view.frame.height) * difference;
         
         var imageRect = IMAGE.frame;
         imageRect.origin.y = -(difference/2)+move;

@@ -1,7 +1,7 @@
 # Apple-Prototypes
 
 ![platforms](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/iOS-macOS-Prototypes/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/Apple-Prototypes/master/LICENSE)
 
 Some interesting prototypes and snippets of code that I tinkered with for Apple's platforms
 
@@ -19,11 +19,13 @@ Some interesting prototypes and snippets of code that I tinkered with for Apple'
 
 - [UICollectionView Template](/Prototypes/UICollectionView Template): An iOS project with a simple implementation of UICollectionView
 
+- [UIViewController Transitions](/Prototypes/UIViewController_Transitions): An iOS project that contains different transitions for view controllers. Uses: UIPresentationController, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning
+
 ## Snippets
 
 - [Struct.playground](/Snippets): A playground that shows a simple implementation of a swift struct and how one can serialize and de-serialize elements
 
-- [CoreData.swift](/Snippets/CoreData): A swift source files that encapsulates the important components of the Core Data Stack. (Note: For use in projects iOS 9 and below)
+- [CoreData.swift](/Snippets/Core Data): A swift source files that encapsulates the important components of the Core Data Stack. (Note: For use in projects iOS 9 and below)
 
 - [letMutability.swift](/Snippets): A playground that shows two implementations of the same functional code. One uses let-mutability while the other uses regular sequential assignments
 

@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C5DFFA2D1B52D9CA001BD0E8"
-               BuildableName = "TableExample.app"
-               BlueprintName = "TableExample"
-               ReferencedContainer = "container:TableExample.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C5DFFA421B52D9CA001BD0E8"
-               BuildableName = "TableExampleTests.xctest"
-               BlueprintName = "TableExampleTests"
-               ReferencedContainer = "container:TableExample.xcodeproj">
+               BlueprintIdentifier = "C5FB0AEA1E254A730081EC98"
+               BuildableName = "UIViewController_Transitions.app"
+               BlueprintName = "UIViewController_Transitions"
+               ReferencedContainer = "container:UIViewController_Transitions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C5DFFA421B52D9CA001BD0E8"
-               BuildableName = "TableExampleTests.xctest"
-               BlueprintName = "TableExampleTests"
-               ReferencedContainer = "container:TableExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5DFFA2D1B52D9CA001BD0E8"
-            BuildableName = "TableExample.app"
-            BlueprintName = "TableExample"
-            ReferencedContainer = "container:TableExample.xcodeproj">
+            BlueprintIdentifier = "C5FB0AEA1E254A730081EC98"
+            BuildableName = "UIViewController_Transitions.app"
+            BlueprintName = "UIViewController_Transitions"
+            ReferencedContainer = "container:UIViewController_Transitions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5DFFA2D1B52D9CA001BD0E8"
-            BuildableName = "TableExample.app"
-            BlueprintName = "TableExample"
-            ReferencedContainer = "container:TableExample.xcodeproj">
+            BlueprintIdentifier = "C5FB0AEA1E254A730081EC98"
+            BuildableName = "UIViewController_Transitions.app"
+            BlueprintName = "UIViewController_Transitions"
+            ReferencedContainer = "container:UIViewController_Transitions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -98,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5DFFA2D1B52D9CA001BD0E8"
-            BuildableName = "TableExample.app"
-            BlueprintName = "TableExample"
-            ReferencedContainer = "container:TableExample.xcodeproj">
+            BlueprintIdentifier = "C5FB0AEA1E254A730081EC98"
+            BuildableName = "UIViewController_Transitions.app"
+            BlueprintName = "UIViewController_Transitions"
+            ReferencedContainer = "container:UIViewController_Transitions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
