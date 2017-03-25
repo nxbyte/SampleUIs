@@ -13,11 +13,11 @@ Some interesting prototypes and snippets of code that I tinkered with for Apple'
 
 ## Prototypes
 
-- [UITableView Template](/Prototypes/UITableView Template): An iOS project with a simple implementation of UITableView
+- [UITableView Template](/Prototypes/UITableView%20Template): An iOS project with a simple implementation of UITableView
 
-- [UITableView Parallax](/Prototypes/UITableView Parallax): An iOS project that moves each image inside each cell while scrolling the UITableView
+- [UITableView Parallax](/Prototypes/UITableView%20Parallax): An iOS project that moves each image inside each cell while scrolling the UITableView
 
-- [UICollectionView Template](/Prototypes/UICollectionView Template): An iOS project with a simple implementation of UICollectionView
+- [UICollectionView Template](/Prototypes/UICollectionView%20Template): An iOS project with a simple implementation of UICollectionView
 
 - [UIViewController Transitions](/Prototypes/UIViewController_Transitions): An iOS project that contains different transitions for view controllers. Uses: UIPresentationController, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning
 
@@ -25,7 +25,7 @@ Some interesting prototypes and snippets of code that I tinkered with for Apple'
 
 - [Struct.playground](/Snippets): A playground that shows a simple implementation of a swift struct and how one can serialize and de-serialize elements
 
-- [CoreData.swift](/Snippets/Core Data): A swift source files that encapsulates the important components of the Core Data Stack. (Note: For use in projects iOS 9 and below)
+- [CoreData.swift](/Snippets/Core%20Data): A swift source files that encapsulates the important components of the Core Data Stack. (Note: For use in projects iOS 9 and below)
 
 - [letMutability.swift](/Snippets): A playground that shows two implementations of the same functional code. One uses let-mutability while the other uses regular sequential assignments
 
