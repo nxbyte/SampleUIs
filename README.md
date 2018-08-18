@@ -1,9 +1,9 @@
-# Apple-Prototypes
+# SampleUIs
 
 ![platforms](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/Apple-Prototypes/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/SampleUIs/master/LICENSE)
 
-Some interesting prototypes and snippets of code that I tinkered with for Apple's platforms
+Some interesting prototypes and snippets of code that I tinkered before joining Apple.
 
 ## Requirements
 
@@ -33,4 +33,4 @@ Some interesting prototypes and snippets of code that I tinkered with for Apple'
 
 ## License
 
-All **snippets** and **prototypes** in this repository are released under the MIT license. See LICENSE for details.
+All **source code** in this repository are released under the MIT license. See LICENSE for details.
